@@ -1,15 +1,18 @@
 # SegPC2021
 Multi-scale Regional Attention Deeplab3+: Multiple Myeloma Plasma Cells Segmentation in Microscopic Images
 
-will be update soon
 
+## Updates
+- Implementation code and trained weights are released. 
 
+## Prerequisties and Run
+This code has been implemented in python language using Keras libarary with tensorflow backend and tested in ubuntu OS, though should be compatible with related environment. All the required libraries are mentioned in the requirement file. 
 
-1- Put your test set inside the ./dataset/
-2- Add the above path to the ./configs/config.json
-3- Download the weights from the bellow link and put in weights folder
-https://drive.google.com/drive/folders/1yJQL5gDLNpawBTjc-uyivcg3vBIloabJ
-4- Run main.ipynb cell by cell. 
-5- good luck
+## Run Demo
+Plese follow the below steps: 
+1- Put your test set inside the ./dataset/  </br>
+2- Add the above path to the ./configs/config.json  </br>
+3- Download the [weights](https://drive.google.com/drive/folders/1yJQL5gDLNpawBTjc-uyivcg3vBIloabJ) and put in weights folder  </br>
+4- Run main.ipynb cell by cell.   </br>
 
 
