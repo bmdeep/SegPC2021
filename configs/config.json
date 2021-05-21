@@ -1,0 +1,96 @@
+{
+  "DATA": {
+    "X_DIR": "./dataset/test/x/",
+    "NPY_DIR": "./data/",
+    "X_FILE_TYPE_EXTENSION": ".bmp"
+  },
+  "CYTS": {
+    "MODELS": {
+      "input_shape_micro": [
+        256,
+        256,
+        4
+      ],
+      "input_shape_macro": [
+        384,
+        384,
+        4
+      ],
+      "sc1.00_bth_ks": [
+        0.48,
+        3
+      ],
+      "sc3.00_bth_ks": [
+        0.48,
+        3
+      ],
+      "sc3.00_weights": "./weights/Adeeplab_384x384_sc3.00.hdf5",
+      "sc2.60_weights": "./weights/Adeeplab_384x384_sc2.60.hdf5",
+      "sc0.50_weights": "./weights/Adeeplab_256x256_sc0.50.hdf5",
+      "sc2.60_bth_ks": [
+        0.48,
+        3
+      ],
+      "sc1.75_weights": "./weights/Adeeplab_384x384_sc1.75.hdf5",
+      "sc2.80_bth_ks": [
+        0.48,
+        3
+      ],
+      "sc1.75_bth_ks": [
+        0.48,
+        3
+      ],
+      "micro_macro_sc_th": 1.25,
+      "sc0.50_bth_ks": [
+        0.48,
+        3
+      ]
+    }
+  },
+  "FILTERS": {
+    "sc0.50": [
+      0.0,
+      0.8
+    ],
+    "sc3.00": [
+      0.4,
+      200
+    ],
+    "sc2.60": [
+      0.3,
+      200
+    ],
+    "sc1.75": [
+      0.4,
+      200
+    ],
+    "sc1.00": [
+      0.3,
+      0.9
+    ]
+  },
+  "NUCS": {
+    "bth": 0.5,
+    "MODEL": {
+      "pretrained_weights": "./weights/weight_sunet_all_te_800x800_pro.hdf5",
+      "input_shape": [
+        800,
+        800,
+        3
+      ]
+    }
+  },
+  "RUN": {
+    "final_imsk_folder_name": "final_imsk",
+    "width": 1440,
+    "imsk_folder_name": "imsks",
+    "name": "dns",
+    "height": 1080,
+    "crop_scale_list": [
+      0.5,
+      1.75,
+      2.6,
+      3.0
+    ]
+  }
+}
