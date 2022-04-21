@@ -1,14 +1,16 @@
 # [Multi-scale Regional Attention Deeplab3+: Multiple Myeloma Plasma Cells Segmentation in Microscopic Images](https://arxiv.org/abs/2105.06238)
-Two stage deep model explotied to overcome the limitation of existing methods for multiple mylomia instance segmentation ...
- If this code helps with your research please consider citing the following papers:
+Two stage deep model explotied to overcome the limitation of existing methods for multiple mylomia instance segmentation...
+<br>
+If this code helps with your research please consider citing the following papers:
 
-</br>
+```bibtex
 @article{bozorgpour2021multi,
   title={Multi-scale Regional Attention Deeplab3+: Multiple Myeloma Plasma Cells Segmentation in Microscopic Images},
   author={Bozorgpour, Afshin and Azad, Reza and Showkatian, Eman and Sulaiman, Alaa},
   journal={arXiv preprint arXiv:2105.06238},
   year={2021}
 }
+```
 
 #### Please consider starring us, if you found it useful. Thanks
 
